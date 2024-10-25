@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNIN</title>
+    <style>
+        table{
+            width: 800px;
+            border: 1px solid aqua;
+        }
+        table td, table th{
+            border: 1px solid aqua;
+        }
+        table tr:nth-child(1){
+            background-color: aqua;
+        }
+        table tr:nth-child(7){
+            background-color: aqua;
+        }
+        caption{
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">회원 기본 정보</th>
+        </tr>
+        <tr>
+            <th width=130px>아이디:</th>
+            <td><input type="text" name="id" id="id"><i>4~12자의 영문 대소문자와 숫자로만 입력</i></td>
+        </tr>
+        <tr>
+            <th>비밀번호:</th>
+            <td><input type="password" name="password" id="password"><i>4~12자의 영문 대소문자와 숫자로만 입력</i></td>
+        </tr>
+        <tr>
+            <th>비밀번호확인:</th>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <th>메일주소:</th>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <th>이름:</th>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <th colspan="2">개인 신상 정보</th>
+        </tr>
+        <tr>
+            <th>주민등록번호:</th>
+            <td><input type="text" name="first" id="first">-<input type="password" name="last" id="last"></td>
+        </tr>
+        <tr>
+            <th>생일:</th>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <th>관심분야:</th>
+            <td>
+                <input type="checkbox" name="JAVA" id="JAVA">JAVA
+                <input type="checkbox" name="Android" id="Android">Android
+                <input type="checkbox" name="PHP" id="PHP">PHP
+                <input type="checkbox" name="JS" id="JS">JAVA Script
+                <input type="checkbox" name="Python" id="Python">Python
+                <i>*하나 이상 체크</i>
+            </td>
+        </tr>
+        <tr>
+            <th>자기소개</th>
+            <td><textarea name="intro" id="intro" cols="90" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <th>약관동의</th>
+            <td>
+                <input type="checkbox" name="c1" id="c1">만 14세 이상입니다. <br>
+                <input type="checkbox" name="c2" id="c2">이용약관 동의 <br>
+                <input type="checkbox" name="c3" id="c3">개인정보 수집 및 이용 동의
+            </td>
+        </tr>
+        <caption>
+            <button type="submit">회원 가입</button>
+            <button type="reset">다시 입력</button>
+        </caption>
+    </table>
+</body>
+</html>
