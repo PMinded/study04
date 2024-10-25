@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <script src="https://kit.fontawesome.com/c1d52818cc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Gamja+Flower&family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        nav{
+            width: 800px;
+            margin: 0 auto;
+            padding: 8px;
+            background-color: rgba(255, 191, 212, 0.288);
+            border: 1px dotted black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        div.nav_logo{
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            align-items: baseline;
+            font-family: "Danfo", serif;
+            font-style: normal;
+            font-variation-settings:"ELSH" 0;
+            font-optical-sizing: auto;
+        }
+        div.nav_logo i{
+            color: rgb(0, 0, 255);
+            font-size: 32px;
+            margin-right: 5px;
+        }
+        div.nav_logo:hover{
+            background-color: rgb(0, 255, 106);
+        }
+        ul.nav_menu{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            font-family: "Gamja Flower", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        ul.nav_menu a{
+            padding: 8px 12px;
+        }
+        ul.nav_menu a:hover{
+            background-color: turquoise;
+        }
+        ul.nav_icons{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        ul.nav_icons a{
+            font-size: 20px;
+            padding: 8px 15px;
+        }
+        ul.nav_icons a:hover{
+            background-color: turquoise;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+            
+            <a href="#">MENU</a>
+        </div>
+
+        <ul class="nav_menu">
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+            <li><a href="#">메뉴4</a></li>
+            <li><a href="#">메뉴5</a></li>
+        </ul>
+
+    </nav>
+</body>
+</html>
